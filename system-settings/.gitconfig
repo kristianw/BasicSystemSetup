@@ -1,0 +1,15 @@
+[user]
+	email = kristian.walsh89@gmail.com
+	name = Kristian Walsh
+[core]
+	editor = vim~
+[colo]
+	ui = true
+[color]
+	ui = true
+[alias]
+	co = commit
+	gs = status
+	gch = checkout
+	gco = commit
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
