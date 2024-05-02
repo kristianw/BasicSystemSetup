@@ -12,7 +12,6 @@ tap "homebrew/cask-fonts"
 brew "mas"
 
 ## personal
-brew '1password-cli'
 brew 'docker-compose'
 brew 'fd' # find alternative
 brew 'neovim'
@@ -29,7 +28,7 @@ brew 'awscli'
 # Mac App Store apps
 ## Personal
 mas "1Password for Safari", id: 1569813296
-mas "Audio Diary - AI Voice Journal", id: 2145434105
+mas "Audio Diary - AI Voice Journal", id: 6444500487
 mas "Dark Noise: Ambient Sounds", id: 1465439395
 mas "SnippetsLab", id: 1006087419
 mas "The Unarchiver", id: 425424353
@@ -42,6 +41,7 @@ mas "Vimari", id: 1480933944
 # Other apps
 ## Personal
 cask '1password'
+cask '1password-cli'
 cask 'appcleaner'
 cask 'arc' # arc-browser
 cask 'bartender'
