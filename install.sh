@@ -31,10 +31,11 @@ sh system-settings/setup.sh
 # Source the updated .zshrc file
 source ~/.zshrc
 
-# Finally, remove the temporary directory and its contents recursively    
+# Finally, remove the temporary directory and its contents recursively
 rm -rf "$HOME/SystemSetupTmp"    
 echo "Temporary files removed successfully."
 # echo "Restart your terminal for zsh-autosuggestions to take effect."
 
 unset GIT_USERNAME
 unset REPO_NAME
+
