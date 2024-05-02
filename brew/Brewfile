@@ -14,10 +14,10 @@ brew "mas"
 ## personal
 brew '1password-cli'
 brew 'docker-compose'
-brew 'fd' // find alternative
+brew 'fd' # find alternative
 brew 'neovim'
 brew 'plantuml'
-brew 'ripgrep' // grep alternative
+brew 'ripgrep' # grep alternative
 brew 'volta'
 brew 'yarn'
 brew 'zsh-autosuggestions'
@@ -43,7 +43,7 @@ mas "Vimari", id: 1480933944
 ## Personal
 cask '1password'
 cask 'appcleaner'
-cask 'arc' // arc-browser
+cask 'arc' # arc-browser
 cask 'bartender'
 cask 'beeper'
 cask 'bruno'
@@ -54,12 +54,12 @@ cask 'fantastical'
 cask 'fork'
 cask 'google-chrome'
 cask 'hyperkey'
-cask 'jetbrains-toolbox' // webstorm & datagrip
+cask 'jetbrains-toolbox'
 cask 'notion'
 cask 'proxyman'
 cask 'raycast'
 cask 'replacicon'
-cask 'screens' // current version is 4.12.16
+cask 'screens' # current version is 4.12.16
 cask 'setapp'
 cask 'spotify'
 cask 'visual-studio-code'
