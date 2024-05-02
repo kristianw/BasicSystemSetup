@@ -1,6 +1,6 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
+# tap "homebrew/cask"
+# tap "homebrew/core"
 tap "homebrew/cask-fonts"
 
 
@@ -14,12 +14,14 @@ brew "mas"
 ## personal
 brew 'docker-compose'
 brew 'fd' # find alternative
+brew 'gh'
 brew 'neovim'
 brew 'plantuml'
 brew 'ripgrep' # grep alternative
 brew 'volta'
 brew 'yarn'
 brew 'zsh-autosuggestions'
+brew 'zsh-syntax-highlighting'
 
 ## work
 brew 'awscli'
@@ -30,6 +32,7 @@ brew 'awscli'
 mas "1Password for Safari", id: 1569813296
 mas "Audio Diary - AI Voice Journal", id: 6444500487
 mas "Dark Noise: Ambient Sounds", id: 1465439395
+mas "Dark Reader for Safari", id: 1438243180
 mas "SnippetsLab", id: 1006087419
 mas "The Unarchiver", id: 425424353
 mas "Things 3", id: 904280696

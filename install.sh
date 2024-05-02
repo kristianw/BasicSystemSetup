@@ -29,6 +29,7 @@ sh brew/install.sh
 sh system-settings/setup.sh
 
 # Source the updated .zshrc file
+zsh
 source ~/.zshrc
 
 # Finally, remove the temporary directory and its contents recursively

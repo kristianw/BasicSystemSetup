@@ -1,5 +1,5 @@
 
-plugins=(1password copybuffer git jira zsh-autosuggestions)
+plugins=(1password copybuffer git jira)
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -21,13 +21,13 @@ HIST_STAMPS="dd/mm/yyyy"
 
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
-export PATH=/opt/homebrew/bin:$PATH
+export PATH="/opt/homebrew/bin:$PATH"
 
 ### Git PS1 Config
-autoload -Uz vcs_info # enable vcs_info
-precmd () { vcs_info } # always load before displaying the prompt
-zstyle ':vcs_info:*' formats ' %s(%F{red}%b%f)'
-PS1='%n@%m %F{red}%/%f$vcs_info_msg_0_ ## '
+# autoload -Uz vcs_info # enable vcs_info
+# precmd () { vcs_info } # always load before displaying the prompt
+# zstyle ":vcs_info:*' formats ' %s(%F{red}%b%f)"
+# PS1="%n@%m %F{red}%/%f$vcs_info_msg_0_ ## "
 
 ### Aliases
 #### Git
@@ -50,4 +50,3 @@ alias dev="cd ~/dev"
 alias history="fc -fl 1"
 
 source $ZSH/oh-my-zsh.sh
-# source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
